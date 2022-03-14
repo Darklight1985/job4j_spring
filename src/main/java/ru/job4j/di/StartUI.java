@@ -11,7 +11,7 @@ public class StartUI {
     public void init(ConsoleInput input) {
         int select = Integer.parseInt(input.askStr("Выберите пункт меню:"));
 
-        System.out.println("Вы выюрали " + select);
+        System.out.println("Вы выбрали " + select);
     }
 
     public void add(String value) {
