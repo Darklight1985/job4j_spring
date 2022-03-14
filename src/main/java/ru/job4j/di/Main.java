@@ -11,7 +11,6 @@ public class Main {
         StartUI ui = context.get(StartUI.class);
         ui.init(input);
 
-
         ui.add("Petr Arsentev");
         ui.add("Ivan ivanov");
         ui.print();
